@@ -32,7 +32,7 @@ function install_ufw {
 
 function read_nodename {
   if [ ! $SUBSPACE_NODENAME ]; then
-  echo -e "Enter your node name(random name for telemetry)"
+  echo -e "Ваше имя ноды"
   line_1
   read SUBSPACE_NODENAME
   fi
@@ -40,7 +40,7 @@ function read_nodename {
 
 function read_wallet {
   if [ ! $WALLET_ADDRESS ]; then
-  echo -e "Enter your polkadot.js extension address"
+  echo -e "Ваш адрес кошелька st.."
   line_1
   read WALLET_ADDRESS
   fi
